@@ -7,8 +7,8 @@ const clienteController = require('../controllers/clienteController');
 router.post('/', clienteController.agregarclientes);
 router.get('/', clienteController.mostarClientes);
 router.get('/:id', clienteController.BuscarCliente);
-//router.put('/:id', clienteController.modificarClientes);
-router.patch('/:id', clienteController.editarunCliente);
+router.put('/:id', clienteController.modificarClientes);
+//router.patch('/:id', clienteController.editarunCliente);
 router.delete('/:id', clienteController.borrarcliente);
 
 
